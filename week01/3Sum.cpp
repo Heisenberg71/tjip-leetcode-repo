@@ -1,5 +1,5 @@
 // TC: O(N^2)
-// MC: O(N)
+// MC: O(N^2)
 // Here, N = updated size of nums.
 
 class Solution {
