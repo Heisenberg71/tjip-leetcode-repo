@@ -21,9 +21,9 @@ public:
     
     bool remove(int val) {
         if(index.count(val)){
-            int pos = index[val];
-            index[ store.back() ] = pos;
-            swap(store[pos], store.back());
+            int current_index = index[val];
+            index[ store.back() ] = current_index;
+            swap(store[current_index], store.back());
             index.erase(val);
             store.pop_back();
             return true;
