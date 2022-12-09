@@ -1,3 +1,6 @@
+// O(N)
+// O(256)
+
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
