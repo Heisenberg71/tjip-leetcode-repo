@@ -1,3 +1,6 @@
+// TC: O(NlogN)
+// MC: O(total number of characters)
+
 class Solution {
 public:
     static bool compare(pair<string, string> &a, pair<string, string> &b)
