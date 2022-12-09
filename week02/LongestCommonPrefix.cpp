@@ -1,3 +1,6 @@
+// O(total number of all characters)
+// O(Max string length)
+
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
