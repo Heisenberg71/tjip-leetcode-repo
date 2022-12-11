@@ -1,6 +1,8 @@
 class Solution {
 public:
-    vector <int> index_of[26];
+    static const int MAX_CHAR_LIM = 26;
+    
+    vector <int> index_of[MAX_CHAR_LIM];
     vector <int> :: iterator it;
 
     bool isMatched(string &currentWord){
