@@ -1,5 +1,5 @@
-// O(string_size)
-// O(string_size)
+// TC: O(string_size)
+// MC: O(string_size)
 
 class Solution {
 public:
