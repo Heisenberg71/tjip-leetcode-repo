@@ -1,3 +1,6 @@
+// O(string_size)
+// O(string_size)
+
 class Solution {
 public:
     bool isValid(string s) {
