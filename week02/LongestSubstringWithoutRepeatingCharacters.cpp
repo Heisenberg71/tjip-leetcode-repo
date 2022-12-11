@@ -3,8 +3,9 @@
 
 class Solution {
 public:
+    static const int MAX_CHAR_LIM 256;
+        
     int lengthOfLongestSubstring(string s) {
-
         vector <int> frequency(256, 0); // For all ASCII characters
         
         int longestSubstringLength = 0;
