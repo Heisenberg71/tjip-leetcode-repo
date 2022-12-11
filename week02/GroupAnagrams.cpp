@@ -10,9 +10,9 @@ public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         vector < pair<string, string> > sorted_original;
         for(int i = 0; i < strs.size(); i++){
-            string temp = strs[i];
-            sort(temp.begin(), temp.end());
-            sorted_original.push_back({temp, strs[i]});
+            string sortedStr = strs[i];
+            sort(sortedStr.begin(), sortedStr.end());
+            sorted_original.push_back({sortedStr, strs[i]});
         }
         sort(sorted_original.begin(), sorted_original.end(), compare);
         
