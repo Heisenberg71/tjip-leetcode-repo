@@ -1,3 +1,6 @@
+// TC: O(N)
+// MC: O(1)
+
 class Solution {
 public:
     static const MAX_CHAR_SIZE = 26;
