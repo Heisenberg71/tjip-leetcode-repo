@@ -1,3 +1,6 @@
+// TC: O(1) average case for each function
+// MC: O(max_cap)
+
 class LRUCache {
 public:
     list <int> lru;
