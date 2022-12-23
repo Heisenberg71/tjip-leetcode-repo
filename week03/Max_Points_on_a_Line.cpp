@@ -13,14 +13,13 @@ public:
         int max_pairs_in_line = 1;
         for(auto &a: points){
             for(auto &b: points){
-                if(a == b) continue;
-
                 int up = a[0] - b[0];
                 int down = a[1] - b[1];
                 int g = abs(__gcd(up, down));
-                up /= g, down /= g;
-
+                
+                if(g == 0) continue;
                 if(up < 0 || (up == 0 && down < 0)) up = -up, down = -down;
+                up /= g, down /= g;
 
                 sameLine_freq[up*BASE + down]++;
                 max_pairs_in_line = max(max_pairs_in_line, 1 + sameLine_freq[up*BASE + down]);
