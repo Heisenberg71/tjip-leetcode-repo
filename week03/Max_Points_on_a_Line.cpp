@@ -18,7 +18,6 @@ public:
                 int g = abs(__gcd(up, down));
                 
                 if(g == 0) continue;
-                if(up < 0 || (up == 0 && down < 0)) up = -up, down = -down;
                 up /= g, down /= g;
 
                 sameLine_freq[up*BASE + down]++;
