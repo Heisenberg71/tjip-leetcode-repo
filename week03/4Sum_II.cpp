@@ -1,3 +1,6 @@
+// TC: O(N^2), N = max_size_of_an_array
+// MC: O(N^2) 
+
 class Solution {
 public:
     int fourSumCount(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vector<int>& nums4) {
