@@ -1,3 +1,6 @@
+// TC: O(N) N = max_size_of_string
+// MC: O(1)
+
 class Solution {
 public:
     static const int MAX_CHAR_LIM = 256;
