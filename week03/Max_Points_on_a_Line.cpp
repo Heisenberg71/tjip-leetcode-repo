@@ -1,3 +1,6 @@
+// TC: O(N^2 logN) Here, N = total number of points
+// MC: O(N)
+
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
