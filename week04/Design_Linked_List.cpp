@@ -19,6 +19,7 @@ public:
         head = new node(DUMMY_VALUE, NULL);
     }
     
+    /// O(N) Here, N = size of linkList
     int get(int index) {
         if(index < 0 || len <= index) return -1;
         auto currentNode = head -> next;
@@ -27,14 +28,17 @@ public:
         return currentNode -> value;
     }
     
+    /// O(1)
     void addAtHead(int val) {
         addAtIndex(0, val);
     }
     
+    /// O(1)
     void addAtTail(int val) {
         addAtIndex(len, val);
     }
     
+    /// O(N) Here, N = size of linkList
     void addAtIndex(int index, int val) {
         if(index < 0 || len < index) return;
 
@@ -48,6 +52,7 @@ public:
         newNode -> next = nextNode;
     }
     
+    /// O(N) Here, N = size of linkList
     void deleteAtIndex(int index) {
         if(index < 0 || len <= index) return;
 
