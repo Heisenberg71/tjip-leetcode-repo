@@ -12,6 +12,7 @@
 class Solution {
 public:
     void deleteNode(ListNode* deleteNode) {
+        auto nextNode = deleteNode -> next;
         *deleteNode = *deleteNode -> next;
         delete nextNode;
     }
