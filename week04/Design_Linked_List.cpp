@@ -33,7 +33,7 @@ public:
         addAtIndex(0, val);
     }
     
-    /// O(1)
+    /// O(N) Here, N = size of linkList
     void addAtTail(int val) {
         addAtIndex(len, val);
     }
