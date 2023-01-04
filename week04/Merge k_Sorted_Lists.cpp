@@ -1,4 +1,4 @@
-/// TC: O(NlogN)
+/// TC: O(NlogN) Here, N = size of linkedlist
 /// MC: O(NlogN)
 
 
