@@ -1,4 +1,4 @@
-// TC: O(N)
+// TC: O(N) Here, N = size of linked list
 // MC: O(1)
 
 /**
