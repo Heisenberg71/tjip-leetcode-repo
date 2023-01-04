@@ -1,5 +1,6 @@
 // TC: O(N^2 * logN) Here, N = size of linkedlist
 // MC: O(NlogN)
+// I know this is a very bad solution, But I didn't get enough time to think about optimization. :'(
 
 /*
 // Definition for a Node.
