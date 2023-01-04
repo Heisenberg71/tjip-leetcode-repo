@@ -1,3 +1,7 @@
+/// TC: O(NlogN)
+/// MC: O(NlogN)
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
