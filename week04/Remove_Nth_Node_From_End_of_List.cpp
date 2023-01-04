@@ -1,3 +1,7 @@
+// TC: O(N) N = size of linked list
+// MC: O(1)
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
