@@ -1,3 +1,6 @@
+// T.C: O(N) Here, N = number of nodes in the tree
+// M.C: O(D) Here, D = the depth of the recursion stack memory
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
