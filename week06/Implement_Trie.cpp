@@ -4,7 +4,7 @@ private:
     public:
         const static int LIM = 26;
         bool hasEnd;
-        trieNode* next[LIM];
+        shared_ptr<trieNode> next[LIM];
         trieNode(){
             hasEnd = false;
             for(int i = 0; i < 26; i++)
@@ -12,22 +12,22 @@ private:
         }
     };
 public:
-    trieNode* root;
+    shared_ptr<trieNode> root;
     Trie() {
-        root = new trieNode();
+        root = make_shared<trieNode>();
     }
     
-    void insert(string word) { // // T.C: O(string length), M.C: O(string length)
+    void insert(string word) {// T.C: O(string length), M.C: O(string length)
         auto currNode = root;
         for(char& ch: word){
             int index = ch - 'a';
-            if(currNode -> next[index] == nullptr) currNode -> next[index] = new trieNode();
+            if(currNode -> next[index] == nullptr) currNode -> next[index] = make_shared <trieNode>();
             currNode = currNode -> next[index];
         }
         currNode -> hasEnd = true;
     }
     
-    bool search(string word, bool isPrefix = false) {  // // T.C: O(string length), M.C: O(string length)
+    bool search(string word, bool isPrefix = false) {// T.C: O(string length), M.C: O(string length)
         auto currNode = root;
         for(char& ch: word){
             int index = ch - 'a';
@@ -37,7 +37,7 @@ public:
         return isPrefix || currNode -> hasEnd;
     }
     
-    bool startsWith(string prefix) { // // T.C: O(string length), M.C: O(string length)
+    bool startsWith(string prefix) {// T.C: O(string length), M.C: O(string length)
         return search(prefix, true);
     }
 };
