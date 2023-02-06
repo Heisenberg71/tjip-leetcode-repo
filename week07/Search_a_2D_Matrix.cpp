@@ -1,3 +1,5 @@
+// T.C: O(logR + logC) // Here, R = row size, C = colomn size
+// M.C: O(1)
 class Solution {
 private:
     const static int INVALID = -1;
