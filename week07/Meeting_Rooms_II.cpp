@@ -1,3 +1,6 @@
+// T.C: O(N) Here, N = size of intervals vector
+// M.C: O(1)
+
 class Solution {
 public:
     int minMeetingRooms(vector<vector<int>>& intervals) {
