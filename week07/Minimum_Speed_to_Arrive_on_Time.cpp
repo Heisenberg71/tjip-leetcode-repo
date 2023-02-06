@@ -1,3 +1,6 @@
+// T.C: O(Nlog(MAX_SPEED)) Here, N = size of dist vector
+// M.C: O(1)
+
 class Solution {
 public:
     static const int MAX_SPEED = INT_MAX/2;
