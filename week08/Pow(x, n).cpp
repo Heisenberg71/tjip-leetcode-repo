@@ -1,3 +1,6 @@
+// T.C: O(log2(n)) Here, n = power of x
+// M.C: O(D)       Here, D = max depth of recursion stack memory
+
 class Solution {
 private:
 double power(double x, int n)
