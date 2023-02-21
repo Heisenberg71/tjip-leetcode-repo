@@ -1,3 +1,6 @@
+// T.C: O(log5(N)) Here, N = n
+// M.C: O(1)
+
 class Solution {
 public:
     int trailingZeroes(int n) {
