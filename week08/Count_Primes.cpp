@@ -1,4 +1,4 @@
-// T.C: O(N) Here, N = the value of n
+// T.C: O(Nlog(logN)) Here, N = the value of n
 // M.C: O(N)
 
 class Solution {
