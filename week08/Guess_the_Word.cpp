@@ -1,3 +1,7 @@
+// T.C: O(N*siz*K) Here, N = number of strings, siz = each string size, K = epected value of K is less then 15 for huge value of N.
+// M.C: O(N)
+
+
 /**
  * // This is the Master's API interface.
  * // You should not implement it, or speculate about its implementation
