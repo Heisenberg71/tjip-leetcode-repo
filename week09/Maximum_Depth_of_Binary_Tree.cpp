@@ -1,5 +1,5 @@
-// T.C: O(N), Here, N = number of nodes in the tree
-// M.C: O(1)
+// T.C: O(N) Here, N = number of nodes
+// M.C : O(D) D = max depth of recursion stack memory
 
 /**
  * Definition for a binary tree node.
