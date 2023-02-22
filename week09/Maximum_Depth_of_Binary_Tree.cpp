@@ -1,3 +1,6 @@
+// T.C: O(N), Here, N = number of nodes in the tree
+// M.C: O(1)
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
