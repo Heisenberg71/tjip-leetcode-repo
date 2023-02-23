@@ -1,3 +1,6 @@
+/// T.C: O(N) Here, N = number of nodes
+/// M.C: O(N)
+
 /*
 // Definition for Employee.
 class Employee {
