@@ -5,8 +5,8 @@ class Solution {
 private:
     constexpr static int adjMat[] = {0, 1, 0, -1, 0};
     bool isValid(int row, int col, vector<vector<char>>& grid){
-        if(row < 0 || grid.size() <= row || col < 0 || grid[row].size() <= col || grid[row][col] != '1') return 0;
-        return 1;
+        if(row < 0 || grid.size() <= row || col < 0 || grid[row].size() <= col || grid[row][col] != '1') return false;
+        return true;
     }
     void DFS(int u_row, int u_col, vector<vector<char>>& grid){
         grid[u_row][u_col] = '0';
