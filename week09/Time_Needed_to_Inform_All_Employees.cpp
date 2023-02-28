@@ -5,7 +5,7 @@ class Solution {
 private:
     int DFS(int u, unordered_map <int, vector<int> >& edge, vector<int>& informTime){
         int timeToVisitSubtree = 0;
-        for(auto v: edge[u])
+        for(auto& v: edge[u])
             timeToVisitSubtree = max(timeToVisitSubtree, informTime[u] + DFS(v, edge, informTime));
         return timeToVisitSubtree;
     }
