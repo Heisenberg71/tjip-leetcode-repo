@@ -29,9 +29,9 @@ public:
         }
 
         vector <vector<int> > vertical_order;
-        for(auto nodeList: verticalOrder_nodeList){
+        for(auto& nodeList: verticalOrder_nodeList){
             vector <int> sameLevel;
-            for(auto u: nodeList.second)
+            for(auto& u: nodeList.second)
                 sameLevel.push_back(u.second);
             vertical_order.push_back(sameLevel);
         }
