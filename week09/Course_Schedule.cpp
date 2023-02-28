@@ -23,7 +23,7 @@ public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         unordered_map<int, vector <int> > node_adjMat;
         vector <int> vis(numCourses, 0);
-        for(auto u: prerequisites)
+        for(auto& u: prerequisites)
             node_adjMat[ u[0] ].push_back(u[1]);
 
         bool findCycle = false;
