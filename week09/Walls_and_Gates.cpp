@@ -1,5 +1,5 @@
 // T.C: O(GRID_SIZE)
-// M.C: O(1)
+// M.C: O(GRID_SIZE)
 
 
 class Solution {
