@@ -1,4 +1,4 @@
-// T.C: O(MULT) Here, MULT = multiplication of number of characters of all digits
+// T.C: O(MULT) Here, MULT = multiplication of number of characters of assigned to each digit that appears in digits string
 // M.C: O(MULT)
 
 class Solution {
