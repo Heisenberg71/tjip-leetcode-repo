@@ -1,3 +1,6 @@
+// T.C: O(N) Here, N = size of preorder vector
+// M.C: O(D) Here, D = depth of recursion stack memory
+
 class Solution {
 private:
     void verify(int& currIdx, vector<int>& preorder, int L, int R){
