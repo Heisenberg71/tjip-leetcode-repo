@@ -1,6 +1,8 @@
 // T.C: O(ROW*COL)
 // M.C: O(ROW*COL)
 
+// paths[ROW][COL] = # of ways to reach from (0, 0) ot (ROW, COL)
+
 class Solution {
 public:
     int uniquePaths(int m, int n) {
